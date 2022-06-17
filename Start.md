@@ -160,7 +160,8 @@ Log into your Router and make these IP's static for the NS1 and HSD servers
   [Start Here - Common for both Pi's](./Start.md)
   <br/>
   The Introduction <br/>
- [READ ME](./README.md)
+  [READ ME](./README.md)
+  
 </h3>
 
 <br/><br/>
