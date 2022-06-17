@@ -67,12 +67,11 @@ To check what the block height of the chain your at, use the CLI command on the 
 
 >>move onto <br/>
  [PI2-Unbound DNS Setup](./PI2-Unbound_setup.md) <br/>but  always start here <br/>
-  [Start Here - Common for both Pi's](./Start.md)
-  <br/>
-  The Introduction <br/>
+ [Start Here - Common for both Pi's](./Start.md)
+ <br/>The Introduction <br/>
  [READ ME](./README.md)
+  
 </h3>
 
-<br/><br/>
 
 
