@@ -8,7 +8,7 @@ When done you can move onto [PI2-Unbound Setup](./PI2-Unbound_setup.md)
 
 ### 1. Install Libunbound/HSD 
 HSD includes native bindings to libunbound <br/>-- we will make use of this, by installing libunound  on your system before installing HSD <br/><br/>
-log onto PI2 - the one we called HSD in the previous instructions and start inputting these commands
+log onto PI1 - the one we called HSD in the previous instructions and start inputting these commands
 
 $   `sudo apt install libunbound-dev`
 
