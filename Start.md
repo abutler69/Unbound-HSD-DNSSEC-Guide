@@ -158,9 +158,8 @@ Log into your Router and make these IP's static for the NS1 and HSD servers
 >>move onto <br/>
   [PI1-HSD Full Node Setup](./PI1-HSD_setup.md) <br/>but  always start here <br/>
   [Start Here - Common for both Pi's](./Start.md)
-  <br/>
-  The Introduction <br/>
-  [READ ME](./README.md)
+  <br/>The Introduction <br/>
+  [Read ME](./README.md)
   
 </h3>
 
