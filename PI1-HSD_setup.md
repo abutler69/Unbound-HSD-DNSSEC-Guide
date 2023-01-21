@@ -12,11 +12,11 @@ log onto PI1 - the one we called HSD in the previous instructions and start inpu
 
 $   `sudo apt install libunbound-dev`
 
-$   `git clone --depth 1 --branch latest https://github.com/handshake-org/hsd.git`
+$   `sudo git clone --depth 1 --branch latest https://github.com/handshake-org/hsd.git`
 
 $ `cd hsd`
 
-$ `npm i`
+$ `sudo npm i`
 
 ### 2. install the HSD-CLI client globally
 
