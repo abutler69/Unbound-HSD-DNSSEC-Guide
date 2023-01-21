@@ -47,7 +47,7 @@ Copy and paste below into the editor for Pi1 and change the line 127.0.1.1 hsd t
 
 ```
 127.0.0.1 localhost
-127.0.1.1 hsd
+127.0.1.1 hsd.tkg hsd
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback
@@ -63,25 +63,24 @@ Reboot the system
 
   $ `sudo reboot now`
 
-
  ### 4. Install Core Essentials On Both Pi's
 These are not all required but they are very useful to have on the servers
-
 
 #### install net tools:
   $ `sudo apt-get install -y net-tools`
 
 #### install node.js 14.15.5 and NPM:
-  $ ` curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
+  $ `curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
 
   $ `sudo apt-get install -y nodejs`
 
-  $ ` sudo apt-get install alsa-utils`
-
+  $ `sudo apt-get install -y alsa-utils`
+  
+#### update NPM:
+  $ `sudo npm install npm@latest -g` 
+  
 #### install build essentials (includes GCC, G++ and MAKE):
-  $ `sudo apt-get install build-essential`
-
-
+  $ `sudo apt-get install -y build-essential`
 
 #### install node-gyp:
   $ `sudo npm install -g node-gyp`
