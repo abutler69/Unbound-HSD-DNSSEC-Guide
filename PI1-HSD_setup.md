@@ -12,7 +12,7 @@ log onto PI1 - the one we called HSD in the previous instructions and start inpu
 
 $   `sudo apt install libunbound-dev`
 
-$   `git clone https://github.com/handshake-org/hsd`
+$   `git clone --depth 1 --branch latest https://github.com/handshake-org/hsd.git`
 
 $ `cd hsd`
 
